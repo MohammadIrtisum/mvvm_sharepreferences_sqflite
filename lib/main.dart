@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mvvm_sharepreferences_sqflite/MVVM/student_info.dart';
+import 'package:mvvm_sharepreferences_sqflite/MVVM/views/student_info.dart';
 
 void main() {
   runApp(const MyApp());
