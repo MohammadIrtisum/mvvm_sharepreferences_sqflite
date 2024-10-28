@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mvvm_sharepreferences_sqflite/MVVM/views/student_info.dart';
-import 'package:mvvm_sharepreferences_sqflite/domo.dart';
+import 'package:mvvm_sharepreferences_sqflite/assignment/Assignment_MVVM/view/user_info.dart';
+import 'package:mvvm_sharepreferences_sqflite/assignment/domo.dart';
 import 'package:mvvm_sharepreferences_sqflite/shared_preferences/shared_preferences_example.dart';
 import 'package:mvvm_sharepreferences_sqflite/sqflite/sqflite_exam.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: SqfliteExam(),
+      home: SqfliteEx()
     );
   }
 }
